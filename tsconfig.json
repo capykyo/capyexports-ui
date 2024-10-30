@@ -4,8 +4,9 @@
         "module": "ESNext",
         "jsx": "react-jsx",
         "declaration": true,
-        "declarationDir": "dist",
+        "declarationDir": "types",
         "outDir": "dist",
+        "emitDeclarationOnly": true, // 仅生成类型声明文件
         "strict": true,
         "esModuleInterop": true,
         "skipLibCheck": true,

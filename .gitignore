@@ -4,6 +4,7 @@ node_modules/
 # Output directories
 dist/
 build/
+types/
 
 # Vite cache
 .vite

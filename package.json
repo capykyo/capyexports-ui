@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "dist/capyexports-ui.cjs.js",
   "module": "dist/capyexports-ui.esm.js",
-  "types": "dist/index.d.ts",
+  "types": "types/index.d.ts",
   "scripts": {
-    "build": "vite build",
+    "build": "tsc --emitDeclarationOnly && vite build",
     "dev": "vite",
     "test": "jest"
   },
