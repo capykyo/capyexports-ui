@@ -1,9 +1,9 @@
 {
   "name": "capyexports-ui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/capyexports-ui.cjs.js",
   "module": "dist/capyexports-ui.esm.js",
-  "types": "types/index.d.ts",
+  "types": "dist/types/index.d.ts",
   "scripts": {
     "build": "tsc --emitDeclarationOnly && vite build",
     "dev": "vite",
@@ -19,7 +19,8 @@
     "@vitejs/plugin-react": "^4.3.3",
     "classnames": "^2.5.1",
     "typescript": "~5.6.2",
-    "vite": "^5.4.9"
+    "vite": "^5.4.9",
+    "vite-plugin-dts": "^4.3.0"
   },
   "keywords": [
     "react",
